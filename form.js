@@ -22,7 +22,7 @@
       const promise = auth.createUserWithEmailAndPassword(email.value, password.value);
       promise.catch(e => alert(e.message));
 
-      alert("Registered");
+      //alert("Registered");
   }
 
   function Login(){
@@ -32,7 +32,7 @@
     const promise = auth.signInWithEmailAndPassword(email.value, password.value);
     promise.catch(e => alert(e.message));
 
-    alert("Logged In As: " + email.value);
+    //alert("Logged In As: " + email.value);
 
     //Take user to a new page
     if (auth.signInWithEmailAndPassword == true){
@@ -40,11 +40,11 @@
     }
 }
 
-function Logout(){
-    auth.Logout();
-    alert("Logged Out");
+    function Logout(){
+        auth.signOut();
+        //alert("Logged Out");
 
-}
+    }
 
 auth.onAuthStateChanged(function(user){
 

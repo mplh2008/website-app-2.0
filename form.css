@@ -1,0 +1,40 @@
+body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/17/801/264/abstract-3d-purple-pink-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%,  100%;
+    
+}
+h1 {
+    color:antiquewhite;
+    text-align: left;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.topnav {
+    background:#696969;
+    overflow: hidden;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #171817;
+    color: white;
+  }
